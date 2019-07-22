@@ -29,6 +29,6 @@ const Movie = (props) => {
   return (
     <MovieCard movie={movie} addToSavedList={props.addToSavedList} />
   );
-}
+};
 
 export default Movie;
